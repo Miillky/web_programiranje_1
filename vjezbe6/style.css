@@ -1,0 +1,79 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #bbbbbb;
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 33%;
+	float: left;
+	background-image: linear-gradient(to bottom, #999999, #555555);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: black;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.contain {
+	background-color: #efefef;
+	width: 80%;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+/* .contain > nav > ul > li {
+	list-style-type: none;
+	width: 33%;
+	float: left;
+	background-image: linear-gradient(to bottom, #999999, #555555);
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: black;
+	text-align: center;
+	margin-bottom: 20px;
+} */
+
+.contain > nav > ul > li:hover {
+	background-image: linear-gradient(to bottom, #eeeeee, #aaaaaa);
+}
+
+.contain nav > ul > li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.contain > nav > ul > li:last-child {
+	border-right: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.contain > nav > ul > li > a {
+	color: black;
+	text-decoration: none;
+}
+
+.contain ul {
+	font-size: 10px;
+}
+
+.prvo-slovo {
+	color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.7em;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.contain p:last-child {
+	text-align: center;
+	font-size: 0.7em;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
